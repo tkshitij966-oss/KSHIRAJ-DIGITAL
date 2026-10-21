@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services — Kshiraj Productions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class', theme: { extend: { colors: { brand: { base: '#111714', surface: '#1A231F', card: '#222D28', burgundy: '#360C14', cream: '#FBFBF9', sand: '#D4B8A6', muted: '#9CA3AF' } } } } }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>body { background-color: #111714; color: #FBFBF9; font-family: 'Plus Jakarta Sans', sans-serif; } .font-serif { font-family: 'Playfair Display', serif; }</style>
+</head>
+<body class="bg-brand-base text-brand-cream">
+    <header class="fixed top-0 left-0 right-0 z-50 bg-brand-base/85 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="index.html" class="font-serif text-2xl tracking-widest uppercase font-bold text-brand-cream">Kshiraj</a>
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-medium">
+                <a href="index.html" class="hover:text-brand-sand">Home</a>
+                <a href="about.html" class="hover:text-brand-sand">About Us</a>
+                <a href="services.html" class="text-brand-sand">Services</a>
+                <a href="portfolio.html" class="hover:text-brand-sand">Work & 2025 Highlights</a>
+                <a href="collaborations.html" class="hover:text-brand-sand">Collaborations</a>
+            </nav>
+            <a href="contact.html" class="px-6 py-3 bg-brand-cream text-brand-base font-semibold text-xs tracking-widest uppercase">Start a Project</a>
+        </div>
+    </header>
+
+    <div class="pt-36 pb-20 bg-brand-base border-b border-white/10 text-center">
+        <h1 class="font-serif text-4xl sm:text-6xl text-brand-cream">Our Services</h1>
+        <p class="text-brand-muted mt-4 font-light">Everything your brand needs to be seen, heard, and remembered.</p>
+    </div>
+
+    <section class="py-28 max-w-6xl mx-auto px-6 space-y-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center border-b border-white/10 pb-16">
+            <div>
+                <span class="text-xs font-mono text-brand-sand">01 / SERVICE</span>
+                <h2 class="font-serif text-3xl text-brand-cream mt-2 mb-4">Video Production</h2>
+                <p class="text-brand-muted font-light leading-relaxed">Ads, reels, and brand stories. We conceptualize, shoot, and edit cinematic video that tells powerful stories.</p>
+                <a href="contact.html" class="inline-block mt-6 px-6 py-3 bg-brand-cream text-brand-base font-semibold text-xs tracking-widest uppercase">Inquire Now</a>
+            </div>
+            <div class="bg-brand-surface p-8 border border-white/10 h-64 flex items-center justify-center text-brand-muted italic font-serif">Video Production Asset</div>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center border-b border-white/10 pb-16">
+            <div>
+                <span class="text-xs font-mono text-brand-sand">02 / SERVICE</span>
+                <h2 class="font-serif text-3xl text-brand-cream mt-2 mb-4">Digital Campaigns</h2>
+                <p class="text-brand-muted font-light leading-relaxed">Meta Ads, Google Ads, and SEO. Crafting data-driven campaigns that turn ideas into measurable growth.</p>
+                <a href="contact.html" class="inline-block mt-6 px-6 py-3 bg-brand-cream text-brand-base font-semibold text-xs tracking-widest uppercase">Inquire Now</a>
+            </div>
+            <div class="bg-brand-surface p-8 border border-white/10 h-64 flex items-center justify-center text-brand-muted italic font-serif">Digital Campaigns Asset</div>
+        </div>
+    </section>
+</body>
+</html>

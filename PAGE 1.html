@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshiraj Productions — Stories That Stay. Results That Speak.</title>
+    <meta name="description" content="A premium creative brand house built for bold, future-ready identities. Five years underground. Now, out loud.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { base: '#111714', surface: '#1A231F', card: '#222D28', burgundy: '#360C14', cream: '#FBFBF9', sand: '#D4B8A6', muted: '#9CA3AF' }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #111714; color: #FBFBF9; font-family: 'Plus Jakarta Sans', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-brand-base text-brand-cream antialiased">
+
+    <!-- Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-brand-base/85 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+            <a href="index.html" class="font-serif text-2xl tracking-widest uppercase font-bold text-brand-cream">Kshiraj</a>
+            <nav class="hidden lg:flex items-center gap-8 text-sm font-medium tracking-wide">
+                <a href="index.html" class="text-brand-sand">Home</a>
+                <a href="about.html" class="hover:text-brand-sand transition-colors">About Us</a>
+                <a href="services.html" class="hover:text-brand-sand transition-colors">Services</a>
+                <a href="portfolio.html" class="hover:text-brand-sand transition-colors">Work & 2025 Highlights</a>
+                <a href="collaborations.html" class="hover:text-brand-sand transition-colors">Collaborations</a>
+            </nav>
+            <a href="contact.html" class="px-6 py-3 bg-brand-cream text-brand-base font-semibold text-xs tracking-widest uppercase hover:bg-brand-sand transition-all">Start a Project</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden bg-brand-base">
+        <div class="relative z-20 max-w-5xl mx-auto px-6 text-center space-y-8 py-20">
+            <p class="text-xs tracking-[0.3em] uppercase text-brand-sand font-semibold">Kshiraj Productions Brand House</p>
+            <h1 class="font-serif text-4xl sm:text-6xl lg:text-7xl tracking-tight leading-[1.1] text-brand-cream">
+                STORIES THAT STAY.<br><span class="italic font-normal">RESULTS THAT SPEAK.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-base sm:text-lg text-brand-muted font-light leading-relaxed">
+                A brand house built for bold, future-ready identities. Five years underground. Now, out loud.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="contact.html" class="w-full sm:w-auto px-8 py-4 bg-brand-cream text-brand-base font-semibold text-xs tracking-widest uppercase hover:bg-brand-sand transition-all">Start a Project</a>
+                <a href="portfolio.html" class="w-full sm:w-auto px-8 py-4 border border-white/20 text-brand-cream font-semibold text-xs tracking-widest uppercase hover:bg-white/5 transition-all">Explore Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="py-28 bg-brand-surface border-t border-white/10">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="space-y-6">
+                <p class="text-xs tracking-[0.25em] uppercase text-brand-sand font-semibold">About Our Journey</p>
+                <h2 class="font-serif text-3xl sm:text-4xl text-brand-cream">Five years underground. Now, out loud.</h2>
+                <p class="text-brand-muted leading-relaxed font-light">
+                    For over five years, Kshiraj Productions worked in the shadows, sharpening our craft one project at a time. Now we step into the light, officially and unapologetically. We blend cinematic storytelling with sharp strategy to drive results.
+                </p>
+                <a href="about.html" class="inline-flex items-center gap-2 text-xs tracking-widest uppercase font-semibold text-brand-sand hover:text-brand-cream">Read Our Full Story &rarr;</a>
+            </div>
+            <div class="p-8 bg-brand-card border border-white/10 h-80 flex items-center justify-center">
+                <p class="font-serif italic text-brand-muted">Cinematic Visual Asset</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-surface border-t border-white/10 py-12 text-center text-xs text-brand-muted">
+        <p>&copy; 2026 Kshiraj Productions. All rights reserved. | Phone/WhatsApp: +91 72187 95901</p>
+    </footer>
+</body>
+</html>
